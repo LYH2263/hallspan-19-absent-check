@@ -1,0 +1,11 @@
+"""缺考占格策略（08 策略）唯一口径来源，不依赖数据库，供模型与引擎共用。"""
+
+ABSENT_RETAIN = "retain"
+ABSENT_RELEASE = "release"
+ABSENT_STRATEGIES = (ABSENT_RETAIN, ABSENT_RELEASE)
+DEFAULT_ABSENT_STRATEGY = ABSENT_RETAIN
+
+STRATEGY_LABELS = {
+    ABSENT_RETAIN: "缺考占格保留",
+    ABSENT_RELEASE: "缺考释放（不占格）",
+}
