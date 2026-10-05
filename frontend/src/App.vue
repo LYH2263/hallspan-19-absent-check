@@ -12,6 +12,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/violations">违规</RouterLink>
         <RouterLink to="/halls">考室</RouterLink>
         <RouterLink to="/stats">统计</RouterLink>
+        <RouterLink to="/roster">缺考核对册</RouterLink>
       </nav>
     </header>
     <div class="hs-workspace">

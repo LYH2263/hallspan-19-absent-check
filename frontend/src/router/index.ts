@@ -7,6 +7,7 @@ const routes = [
   { path: '/map', name: 'Map', component: () => import('../views/Map.vue') },
   { path: '/violations', name: 'Violations', component: () => import('../views/Violations.vue') },
   { path: '/stats', name: 'Stats', component: () => import('../views/Stats.vue') },
+  { path: '/roster', name: 'Roster', component: () => import('../views/Roster.vue') },
   { path: '/', redirect: '/halls' },
 ]
 

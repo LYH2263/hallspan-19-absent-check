@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.api import candidates, halls, papers, seating
+from app.api import absences, candidates, halls, papers, seating
 api_router = APIRouter()
 
 @api_router.get("/health")
@@ -10,3 +10,4 @@ api_router.include_router(halls.router)
 api_router.include_router(candidates.router)
 api_router.include_router(papers.router)
 api_router.include_router(seating.router)
+api_router.include_router(absences.router)
